@@ -2,7 +2,7 @@
 <TriggernometryExport Version="1">
   <ExportedFolder Id="aea712f0-3ab6-4821-b401-13509f82c5a0" Name="副本发宏&amp;攻略" Enabled="true">
     <Folders>
-      <Folder Id="5d0d109e-2ff9-4fd9-b792-67b7d4b4c18d" Name="站位宏" Enabled="true">
+      <Folder Id="5d0d109e-2ff9-4fd9-b792-67b7d4b4c18d" Name="站位宏 (手动开战前发)" Enabled="true">
         <Folders />
         <Triggers>
           <Trigger Enabled="true" Name="动作" Id="9e590e86-871a-45d9-b558-72bc96d80268" RegularExpression="^\[\d{2}:\d{2}:\d{2}\.\d{3}\] 00:0038:发送副本宏 ?(?&lt;channel&gt;\w+?)( ?(?&lt;map&gt;.+?))?$">
@@ -21,7 +21,7 @@
           </Trigger>
         </Triggers>
       </Folder>
-      <Folder Id="c978814d-a5ba-4e0c-a36e-6f183e0371ce" Name="副本攻略" Enabled="true">
+      <Folder Id="c978814d-a5ba-4e0c-a36e-6f183e0371ce" Name="副本攻略 自动沿路触发" Enabled="true">
         <Folders>
           <Folder Id="ddeb5272-9f43-49d8-b128-2c1f79d5fc39" Name="4人副本" Enabled="true">
             <Folders>
