@@ -1,1 +1,1 @@
-# FFXIV_Mentor_Tools
+# FFXIV_Mentor_Auto_Send_Macro
