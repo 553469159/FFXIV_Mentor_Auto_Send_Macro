@@ -1,0 +1,1697 @@
+<?xml version="1.0"?>
+<TriggernometryExport Version="1">
+  <ExportedFolder Id="aea712f0-3ab6-4821-b401-13509f82c5a0" Name="副本自动发送攻略" Enabled="true">
+    <Folders>
+      <Folder Id="ddeb5272-9f43-49d8-b128-2c1f79d5fc39" Name="4人副本" Enabled="true">
+        <Folders>
+          <Folder ZoneFilterEnabled="True" Id="5a9773eb-b30c-4ea9-9e22-c2d579c09b1c" ZoneFilterRegularExpression="天然要害沙斯塔夏溶洞" Name="15天然要害沙斯塔夏溶洞" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="1 进本" Id="2b0d83e9-9aa3-4fa7-817a-1c8df269439f" RegularExpression="任务开始">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][1]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="6 老三" Id="4d81efb8-93e2-41a0-9e46-7e8396b8654a" RegularExpression="你们这些愚蠢的无鳍类竟敢违抗海神的潮流！">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][6]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="2 老一" Id="47ea658a-7af3-4303-9d62-ad7ea499151a" RegularExpression="00:0839:别的地方好像有什么动静。">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][2]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="3 老一后" Id="93898045-be62-4ff3-84c1-3c892aea6bb0" RegularExpression="19:锐牙长须豹 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][3]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="4 老二" Id="e3b5e861-55e3-46b2-9aae-500fb4f9e088" RegularExpression="“海人门”开放成功！">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][4]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder ZoneFilterEnabled="True" Id="d1bb579e-a6ab-44a5-bb7c-775d8cb2f4e5" ZoneFilterRegularExpression="地下灵殿塔姆·塔拉墓园" Name="16地下灵殿塔姆·塔拉墓园" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="6 BOSS" Id="2952d70d-252a-403a-a5b5-841f17622ea7" RegularExpression="注入深渊之茧的以太流被切断了！">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][6]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="1 进本" Id="648948cc-0675-42a0-b87d-3fd3b5489e23" RegularExpression="任务开始">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][1]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder ZoneFilterEnabled="True" Id="2671d635-8495-4e1d-aad2-a6c66cb1bdbb" ZoneFilterRegularExpression="财宝传说破舰岛" Name="50财宝传说破舰岛" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="5 老二挂了" Id="0059c182-c489-4f18-9c2a-666f1690cc87" RegularExpression="19:肖鲁姆 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][5]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="1 进本" Id="74413baa-b11a-4fd8-9241-2a9fb11e2a60" RegularExpression="任务开始">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][1]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="6 老三" Id="921620b5-d3b1-4c50-a459-3dae5d56c1d2" RegularExpression="00:0839:距海雾号旗舰被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][6]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="2 老一" Id="3555c62b-7d91-4322-96ff-6daede343df5" RegularExpression="00:0839:距雾须一伙的基地被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][2]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="3 老一挂了" Id="bbd22dc7-57ea-42b7-b4b3-388087b7835c" RegularExpression="19:大脚巨猿 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][3]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="4 老二" Id="f65bca43-e1bb-4828-af61-08a59c9096e5" RegularExpression="00:0839:距秘密宝物库被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][4]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder ZoneFilterEnabled="True" Id="4671640d-7522-41b7-8800-2f30f4d27ba1" ZoneFilterRegularExpression="惨剧灵殿塔姆·塔拉墓园" Name="50惨剧灵殿塔姆·塔拉墓园" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="5 老二挂了" Id="9783ed65-b817-482e-a9dc-2ee26b86078d" RegularExpression="19:备用的躯体 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][5]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="1 进本" Id="bccfa1f2-ff72-4eee-8edc-5700065a2cc4" RegularExpression="任务开始">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][1]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="6 老三" Id="bc6fc7fb-54b2-42d9-a9b4-7030e3f723e1" RegularExpression="00:0839:距幽寂的圆环被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][6]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="2 老一" Id="0a9eb6e5-fb56-4efe-bc5a-4b1ef29a8316" RegularExpression="00:0839:距安葬之间被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][2]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="3 老一挂了" Id="a6e9c5cc-7969-45d2-b5fe-c1596f78102f" RegularExpression="19:证婚人 莉亚维娜 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][3]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="4 老二" Id="eeb5025f-f03d-448e-8deb-5ad59ddc2d17" RegularExpression="00:0839:距主宰者加尔梵斯之王墓被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][4]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder ZoneFilterEnabled="True" Id="b129108f-3212-4c6d-8ffb-a29600d2475b" ZoneFilterRegularExpression="纷争要地布雷福洛克斯野营地" Name="50纷争要地布雷福洛克斯野营地" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="5 老二挂了" Id="74e1fdda-35ec-449c-a2d0-f41ef408148e" RegularExpression="19:将3号哥布林装甲 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][5]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="1 进本" Id="03832152-af40-432f-8a3c-93e6b57a19e0" RegularExpression="任务开始">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][1]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="6 老三" Id="b7cc9182-a0b7-449a-bab4-cd8b66fbf16b" RegularExpression="00:0839:距入侵者阵营被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][6]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="2 老一" Id="b0561a1f-a5b3-4372-89c9-c5a7d5f78283" RegularExpression="00:0839:距避难地前庭被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][2]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="3 老一挂了" Id="73b63f06-87fd-4d9a-8fba-2dfecd7dc308" RegularExpression="19:青蓝之手指挥官 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][3]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="4 老二" Id="53a048cd-a7e1-4748-8e62-35c2e9575fb5" RegularExpression="00:0839:距布雷福洛克斯废品场被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][4]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder ZoneFilterEnabled="True" Id="f6e7223a-5d32-40f5-8441-96365970cbac" ZoneFilterRegularExpression="腐坏遗迹无限城市街古迹" Name="50腐坏遗迹无限城市街古迹" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="5 老二挂了" Id="10bbf54c-b4fa-4cbe-8aee-be2cec209b0a" RegularExpression="19:阿里奥克 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][5]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="1 进本" Id="ccccd2e6-89c7-4e2d-9707-d87a932d90bf" RegularExpression="任务开始">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][1]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="6 老三" Id="cebae724-af69-4bde-a89e-0165c4947836" RegularExpression="00:0839:距恶梦舞场被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][6]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="2 老一" Id="44454381-5d32-4c33-93d7-051363c31c8f" RegularExpression="00:0839:距和平的残滓被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][2]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="3 老一挂了" Id="cd064e5d-b94a-44f8-bc9f-4dfffc26953d" RegularExpression="19:腐坏贪吃鬼 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][3]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="4 老二" Id="d1daf492-d435-4051-a7b1-e94d9f904686" RegularExpression="00:0839:距白魔法师塔被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][4]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder ZoneFilterEnabled="True" Id="bbb93563-cf20-4906-b7ff-cfab2034236c" ZoneFilterRegularExpression="幻龙残骸密约之塔" Name="50幻龙残骸密约之塔" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="5 老二挂了" Id="8a8695a1-11af-4d08-b20d-fd67b7ae3181" RegularExpression="19:魔导炮艇 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][5]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="1 进本" Id="583014e9-149e-48f8-b422-94779562502c" RegularExpression="任务开始">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][1]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="6 老三" Id="443914f1-9200-4055-8edd-59bf6bf9a507" RegularExpression="00:0839:距密约大堂被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][6]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="2 老一" Id="9c92010a-f575-4230-8e23-110446cbe556" RegularExpression="00:0839:距旗舰船体被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][2]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="3 老一挂了" Id="da3c8ea6-649b-48d6-b027-2d289d562616" RegularExpression="19:独爪妖禽 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][3]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="4 老二" Id="94975777-28fa-43a2-80b3-5f389676358a" RegularExpression="00:0839:距漂浮气体填充区被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][4]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder ZoneFilterEnabled="True" Id="d10b2bba-3c17-47ce-9fc2-89207d6f6c18" ZoneFilterRegularExpression="剑斗领域日影地修炼所" Name="50剑斗领域日影地修炼所" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="5 老二挂了" Id="53a2a874-4649-4734-9c79-d485697b928c" RegularExpression="19:卡托布莱帕斯 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][5]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="1 进本" Id="a6a747a6-2576-419e-872f-1dcda8be821b" RegularExpression="任务开始">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][1]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="6 老三" Id="48acdc03-f1da-4206-a444-fed7e3695437" RegularExpression="00:0839:距剑斗间被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][6]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="2 老一" Id="7c3c6fac-2d28-4c86-ab1e-5779ff1f084d" RegularExpression="00:0839:距蛮斗间被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][2]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="3 老一挂了" Id="c6f205a1-9a05-4a59-ba2c-fec37096f936" RegularExpression="19:皮拉刻蒙 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][3]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="4 老二" Id="4b927fdb-8148-4aaa-aabf-b4157566dc62" RegularExpression="00:0839:距兽斗间被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][4]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder ZoneFilterEnabled="True" Id="e2275a83-94e7-4ce1-96ed-0b8935791890" ZoneFilterRegularExpression="凛冽洞天披雪大冰壁" Name="50凛冽洞天披雪大冰壁" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="5 老二挂了" Id="c3bff25d-23ad-47d6-a968-575274570275" RegularExpression="19:大脚雪人 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][5]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="1 进本" Id="b8b9e131-364a-4de7-aa4e-e00dfc4b5b83" RegularExpression="任务开始">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][1]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="6 老三" Id="e8305f15-16ee-4acb-9464-c6146b91914f" RegularExpression=".*掉落了异端者的钥匙！">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][6]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="2 老一" Id="bccdbdbe-ffb2-4c0e-a688-b4a06d96a7cb" RegularExpression="白熊掉落了小钥匙！">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][2]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="3 老一挂了" Id="2316b23d-287f-4c32-8b6d-e0977a2d7bca" RegularExpression="19:冰锥万迪尔 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][3]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="4 老二" Id="606ac1ce-bccb-42ca-b292-5fa31f72a40d" RegularExpression="00:0839:距风雪断崖被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][4]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder ZoneFilterEnabled="True" Id="3cb65ad4-2f0b-4f36-bd04-c63ad668b72c" ZoneFilterRegularExpression="领航明灯天狼星灯塔" Name="50领航明灯天狼星灯塔" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="5 老二挂了" Id="c0a0be66-57c8-40da-876f-02800f04129d" RegularExpression="19:祖 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][5]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="1 进本" Id="1bbf6557-5e7d-41ee-968f-eabcf6aecdca" RegularExpression="任务开始">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][1]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="6 老三" Id="ca36d5c3-abad-40eb-89fe-2a27a3339523" RegularExpression="00:0839:距天狼星灯室被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][6]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="2 老一" Id="a1e189d2-a673-4378-b4ce-b116d8242f9f" RegularExpression="00:0839:距第二塔基被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][2]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="3 老一挂了" Id="bd3b262e-d5e8-421d-88fa-8f213786c475" RegularExpression="19:不沉者 西蒙德 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][3]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="4 老二" Id="a04cdf5f-fb05-4247-9488-241ce942caf2" RegularExpression="00:0839:距以太贮藏室被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][4]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder ZoneFilterEnabled="True" Id="8a736c29-1e58-466d-b601-a9148c5bffc2" ZoneFilterRegularExpression="骚乱坑道铜铃铜山" Name="50骚乱坑道铜铃铜山" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="5 老二挂了" Id="85f307d6-b22f-44c9-8ee4-d70a8ce9b774" RegularExpression="19:比吉 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][5]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="1 进本" Id="7184b83a-5de8-4224-81ba-9fd6fbb7bc81" RegularExpression="任务开始">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][1]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="6 老三" Id="c32c4094-485e-4338-b11e-7b845ad2a8b1" RegularExpression="00:0839:距岩窟王宝座被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][6]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="2 老一" Id="79f36f0e-d8e0-46bb-ac8e-f7d9256e850d" RegularExpression="00:0839:距呼唤竖井被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][2]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="3 老一挂了" Id="5e48034a-665b-4349-8ade-2df9e1fd8c48" RegularExpression="19:百臂主脑巨人 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][3]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="4 老二" Id="64d3d76e-a069-46a6-9bf4-f6b6ee70d881" RegularExpression="00:0839:距悲叹竖井被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][4]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder ZoneFilterEnabled="True" Id="ce87a20e-feb1-4eef-9f4d-d52bb377d046" ZoneFilterRegularExpression="神灵圣域放浪神古神殿" Name="50神灵圣域放浪神古神殿" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="5 老二挂了" Id="8e115b6b-19d3-4f60-bf84-ac6b94c9fe1b" RegularExpression="19:巨大奶冻怪 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][5]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="1 进本" Id="51522c96-7664-41af-b507-570bc026ee1b" RegularExpression="任务开始">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][1]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="6 老三" Id="12645828-f0e0-4c4a-9ee3-ec929f8661b0" RegularExpression="00:0839:距旅人栈桥被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][6]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="2 老一" Id="d751206e-dcb5-4349-887b-8d3af6d001e2" RegularExpression="00:0839:距水上庭院被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][2]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="3 老一挂了" Id="30c59a2d-d2d0-475f-a1ec-1b87ae3109f6" RegularExpression="19:圣地守护者 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][3]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="4 老二" Id="edd4ff4e-f407-4a51-878c-3acefa1cfe4f" RegularExpression="00:0839:距旅人安息所被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][4]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder ZoneFilterEnabled="True" Id="3a05e537-d100-455f-a82f-ec70113eb970" ZoneFilterRegularExpression="苏醒遗迹喀恩埋没圣堂" Name="50苏醒遗迹喀恩埋没圣堂" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="5 老二挂了" Id="93ba4859-a925-4076-bd7f-666d00950e07" RegularExpression="19:仙人刺女皇 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][5]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="1 进本" Id="2cb3c4e1-9065-4c53-bab6-bec6dd3597a1" RegularExpression="任务开始">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][1]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="6 老三" Id="f88d6d25-ca16-4161-b9bd-4efa35bc3659" RegularExpression="00:0839:距拉拉弗托三世的庭院被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][6]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="2 老一" Id="990ace6a-60d2-49c0-825c-c75398bd0904" RegularExpression="00:0839:距拉拉弗托四世的地下庭园被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][2]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="3 老一挂了" Id="43827790-bc29-48af-b8d1-892a00a54a7f" RegularExpression="19:受损的审判化身 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][3]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="4 老二" Id="b317511a-8be4-4c25-a1f8-f1b8b19f4564" RegularExpression="捡起了月光石。">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][4]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder ZoneFilterEnabled="True" Id="d7f718c9-4801-4c67-b792-ca5dc55e6da6" ZoneFilterRegularExpression="逆转要害沙斯塔夏溶洞" Name="50逆转要害沙斯塔夏溶洞" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="5 老二挂了" Id="3ca87175-f501-4180-b1bd-c7f7efe37788" RegularExpression="我想起来我还有急事要办！">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][5]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="1 进本" Id="8ba403de-3702-48e0-acf7-a659fbe5e617" RegularExpression="任务开始">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][1]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="6 老三" Id="f71bc873-6ecf-4f14-b573-fb735251d0ab" RegularExpression="隐秘栈桥的门打开了！">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][6]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="2 老一" Id="ac6d28e8-7550-4ef8-94c0-c16781e25373" RegularExpression="距呻吟池被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][2]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="3 老一挂了" Id="8c5e7b3e-7b23-4e3c-b579-ec28cc93f0c4" RegularExpression="19:真红龙虾 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][3]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="4 老二" Id="87beebe3-53b4-42e2-961d-8d5e88eb43e1" RegularExpression="00:0839:距被占领的基地被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][4]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder ZoneFilterEnabled="True" Id="84db3c95-caae-4f86-951a-1691c16f19b6" ZoneFilterRegularExpression="武装圣域放浪神古神殿" Name="50武装圣域放浪神古神殿" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="5 老二挂了" Id="69c2760c-b859-4783-94ad-debdff76eb06" RegularExpression="19:湿皮妖师 佐尔加 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][5]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="1 进本" Id="6ac829cc-e494-4760-96af-345f013ad152" RegularExpression="任务开始">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][1]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="6 老三" Id="12b8be0a-9c91-45a9-8cad-af617be54e2f" RegularExpression="水位下降，出现了新的通路！">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][6]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="2 老一" Id="85f800f4-7962-419e-8d93-bd41f0350ca2" RegularExpression="00:0839:距水上庭院被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][2]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="3 老一挂了" Id="0b2ceafc-ff22-49d0-b451-464edf79161f" RegularExpression="19:折角骑士 寇黑加 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][3]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="4 老二" Id="c9cacaa3-a1b2-4dd3-9f31-b233e98506bb" RegularExpression="距旅人安息所被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][4]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder ZoneFilterEnabled="True" Id="2c9fb83d-b538-417e-acdf-d47b66528b56" ZoneFilterRegularExpression="邪念妖地无限城古堡" Name="50邪念妖地无限城古堡" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="5 老二挂了" Id="54acb0d2-71cd-4c43-923e-c621d7be0343" RegularExpression="19:老二 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][5]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="1 进本" Id="2faa3b64-c183-407c-8292-800ad7e23f3e" RegularExpression="任务开始">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][1]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="6 老三" Id="41b2bb43-7d9c-4fca-ad04-b9e391d5ab60" RegularExpression="00:0839:距染血的舞厅被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][6]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="2 老一" Id="ec48f798-81d6-44f1-b1ce-949bc82bf7ec" RegularExpression="00:0839:距悲愤的前庭被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][2]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="3 老一挂了" Id="f8f8efb8-965f-4b9b-a612-f53522b4ce3a" RegularExpression="19:安可哈格 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][3]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="4 老二" Id="63beddd7-274f-4fec-8d5c-4ec21d55dec9" RegularExpression="00:0839:距苦涩的大堂被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][4]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder ZoneFilterEnabled="True" Id="6d975212-a85a-430a-a36e-79e69e8ce31e" ZoneFilterRegularExpression="邪教驻地无限城古堡" Name="50邪教驻地无限城古堡" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="5 老二挂了" Id="0e9c2ff9-6410-4706-a5f0-1ebb16da3559" RegularExpression="19:恶魔墙 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][5]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="1 进本" Id="e10d0c20-615f-4035-bcae-ec06ad1f2dd2" RegularExpression="任务开始">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][1]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="6 老三" Id="e99cd5fc-4961-45a3-b524-cdd8fc3971ce" RegularExpression="00:0839:距背叛的谒见厅被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][6]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="2 老一" Id="907a5f48-01ff-4a95-ad25-48e7426ce1bf" RegularExpression="00:0839:距不净的大堂被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][2]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="3 老一挂了" Id="b991077e-0749-47b9-af85-b06f691fde38" RegularExpression="19:夺神魔 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][3]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="4 老二" Id="ff9be555-5385-42e2-992a-4ac86d206a0a" RegularExpression="00:0839:距惨剧的翼廊被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][4]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder ZoneFilterEnabled="True" Id="eb1693a9-825a-40d7-bcb1-6b351359a9cf" ZoneFilterRegularExpression="冰雪废堡暮卫塔" Name="51冰雪废堡暮卫塔" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="5 老二挂了" Id="9fae67b2-2e37-4a34-ae5b-63804b36e887" RegularExpression="19:寒光剑 尤埃尔默里克 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][5]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="1 进本" Id="bb3c514b-8c9a-468e-a915-2ec2315c95eb" RegularExpression="任务开始">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][1]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="6 老三" Id="f9c155ed-b8fd-4be3-aefd-f6b100a1e439" RegularExpression="打开了圣冈里奥尔礼拜堂的门！">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][6]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="2 老一" Id="6ac2b85b-f23f-4f25-a11a-d3382ce27035" RegularExpression="堡垒磨齿兽掉落了钢铁制操纵杆！">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][2]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="3 老一挂了" Id="5d2fd8d6-d991-4c8d-9c21-834423f49008" RegularExpression="19:角牙古象 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][3]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="4 老二" Id="7165941a-9316-420d-9ced-c51b666bf71e" RegularExpression="寒霜应征兵掉落了作战会议室的钥匙！">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][4]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder ZoneFilterEnabled="True" Id="8f48d427-1bcf-468c-9e99-a83dcdc69128" ZoneFilterRegularExpression="圣教中枢伊修加德教皇厅" Name="57圣教中枢伊修加德教皇厅" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="5 老二挂了" Id="36c4de21-75ff-4b30-8b80-e0e77ce93ac8" RegularExpression="04:........:Removing combatant 战争狂 格里诺.">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][5]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="1 进本" Id="1a88866f-7e00-4db4-95dc-888985abbc1a" RegularExpression="任务开始">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][1]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="6 老三" Id="f7e565b1-3a6c-4a4b-9de7-6aab39fefc05" RegularExpression="00:0839:距冰天宫礼拜堂被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][6]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="2 老一" Id="6a500a8c-1d72-42a3-ae65-fe3aa75a229a" RegularExpression="00:0839:距圣歌队席被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][2]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="3 老一挂了" Id="c8803341-1a16-42a9-a330-18edf2e064df" RegularExpression="00:0839:移动到了内部庭园……">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][3]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="4 老二" Id="7d6fcd0b-3db8-4fb3-823a-35bc1ac56604" RegularExpression="00:0839:距庭园小厅被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][4]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder ZoneFilterEnabled="True" Id="0c103dfd-c2d3-4373-983d-a1e99cd45ca0" ZoneFilterRegularExpression="天山绝顶索姆阿尔灵峰" Name="53天山绝顶索姆阿尔灵峰" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="5 老二挂了" Id="4c4689b2-9c1a-40a2-a2bc-957d3631a141" RegularExpression="19:迈斯龙 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][5]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="1 进本" Id="6db35b3b-8ebc-4e06-9d37-36a4316001c3" RegularExpression="任务开始">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][1]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="6 老三" Id="08e8c568-1284-4f86-b007-5d658dfb0209" RegularExpression="19:受伤的凌寒巨龙 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][6]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="2 老一" Id="8c7890ff-cbda-4647-8265-944e3b991705" RegularExpression="00:0839:距碧崖被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][2]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="3 老一挂了" Id="8daa87eb-135f-474f-877c-963aa7a27b77" RegularExpression="19:破锁花王 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][3]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="4 老二" Id="b2c53d1c-1b6d-4f3d-9938-dfbb15e01501" RegularExpression="00:0839:距灵伤被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][4]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder ZoneFilterEnabled="True" Id="95f23102-f92a-47fe-9fe9-1ed3fb328c3d" ZoneFilterRegularExpression="邪龙王座龙巢神殿" Name="55邪龙王座龙巢神殿" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="5 老二挂了" Id="00f69147-6ccc-473f-88ad-4052976c3c34" RegularExpression="19:格亚斯库图斯 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][5]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="1 进本" Id="67260a6b-a130-4a58-9515-aba0ea695a54" RegularExpression="任务开始">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][1]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="6 老三" Id="04646d96-0b28-4624-92e8-6db90fbf7e39" RegularExpression="00:0044:屠龙者 埃斯蒂尼安:我会用龙眼抑制住它的力量！ 趁着这时快进行攻击！">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][6]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="2 老一" Id="27ea1843-8045-4b20-860f-86a301e34ad8" RegularExpression="00:0839:距堕落之光的命运被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][2]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="3 老一挂了" Id="0cb0a323-9343-435b-94a0-49630ffaf1c1" RegularExpression="19:琅妲巫龙 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][3]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="4 老二" Id="147e489f-de5f-4b7b-a619-e04c7e54449c" RegularExpression="00:0839:距毁坏不堪的根基被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][4]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder ZoneFilterEnabled="True" Id="2a193cde-8094-42de-b594-ac803609e0d9" ZoneFilterRegularExpression="学识宝库迦巴勒幻想图书馆" Name="59学识宝库迦巴勒幻想图书馆" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="5 老二挂了" Id="1a3694e6-09f8-40ba-8513-a8a55147e7d6" RegularExpression="19:比布鲁斯 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][5]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="1 进本" Id="9d7432b7-950a-4613-ab17-6c399ecff188" RegularExpression="任务开始">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][1]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="6 老三" Id="c47cb529-928b-40d1-a830-6f54fa6215e5" RegularExpression="00:0839:距狂想禁书库被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][6]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="2 老一" Id="a09924cf-cdbc-4332-808e-9aa271830fb8" RegularExpression="00:0839:距魔书翼廊被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][2]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="3 老一挂了" Id="57e8dd7b-46ab-42b5-a172-4b3bd6eac1bc" RegularExpression="19:恶魔书墙 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][3]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="4 老二" Id="8af72de5-8b38-47a3-b99f-5545a83c2762" RegularExpression="00:0839:距占星学研究室被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][4]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder ZoneFilterEnabled="True" Id="a3607458-f8d2-408b-881e-b4c1d7b74814" ZoneFilterRegularExpression="博物战舰无限回廊" Name="60博物战舰无限回廊" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="5 老二挂了" Id="a643e8c9-a7df-477b-a841-d78e353cbc8b" RegularExpression="19:弥诺陶洛斯 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][5]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="1 进本" Id="b37bb482-040e-4caa-aeeb-76ce41e111fd" RegularExpression="任务开始">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][1]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="6 老三" Id="68599e73-49a7-41e8-a17d-f1696569ffbf" RegularExpression="00:0839:距现实增强室被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][6]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="2 老一" Id="ec5211b4-c571-4270-9de8-bfc4973794cb" RegularExpression="00:0839:距第三展示区被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][2]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="3 老一挂了" Id="f6bb1bc7-6f72-4165-b3ff-0b763522728d" RegularExpression="19:幻影光 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][3]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="4 老二" Id="67edcd58-7b01-4783-8fc7-afb224b13720" RegularExpression="00:0839:距特级合成兽培养室被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][4]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder ZoneFilterEnabled="True" Id="3709ee24-d090-4375-ada6-c734adbfd7b0" ZoneFilterRegularExpression="草木庭园圣茉夏娜植物园" Name="60草木庭园圣茉夏娜植物园" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="5 老二挂了" Id="04a27aff-2f47-4ed9-9374-2aeb054bd882" RegularExpression="19:老二 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][5]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="1 进本" Id="2aa4fa79-64ab-4ca0-892d-107de3d037ed" RegularExpression="任务开始">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][1]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="6 老三" Id="2f8f812a-07ea-4ea6-9fd0-1bbfda94c046" RegularExpression="距芳香餐桌被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][6]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="2 老一" Id="f8f8693f-7802-45da-8a5d-c8f5ae1f9d0e" RegularExpression="距腐臭庭园被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][2]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="3 老一挂了" Id="683df0e1-eb1f-4636-aef5-4a7c5c3ddbc1" RegularExpression="19:玫瑰园 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][3]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="4 老二" Id="2f3aa75a-0d2d-4334-bdf3-037083d6805c" RegularExpression="距女王宝座被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][4]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder ZoneFilterEnabled="True" Id="75ce293d-93e8-4b49-9832-cfda73c7c3d5" ZoneFilterRegularExpression="地脉灵灯天狼星灯塔" Name="60地脉灵灯天狼星灯塔" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="5 老二挂了" Id="aaf18221-789f-46d3-af4b-67d4ce1caec7" RegularExpression="19:第8团高级教士 孛罟 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][5]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="1 进本" Id="0c5281ad-2b74-4de4-86d6-52fcc8646c52" RegularExpression="任务开始">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][1]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="6 老三" Id="e5a27b63-11e4-44cf-8f17-e159ba7f06f3" RegularExpression="3524号门打开了！">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][6]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="2 老一" Id="d932aae7-a16a-4959-aaa3-09155a997346" RegularExpression="距以太贮藏室被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][2]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="3 老一挂了" Id="5cb4efe7-3660-4df5-b78c-46e7a1119379" RegularExpression="19:流光晶片 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][3]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="4 老二" Id="297268b8-e7c7-4d0b-8126-eea97ec0dba9" RegularExpression="第8团采集员掉落了灯塔钥匙！">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][4]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder ZoneFilterEnabled="True" Id="ff544bf9-2aa0-4e54-b6c6-522781e6fba7" ZoneFilterRegularExpression="空中神域不获岛" Name="60空中神域不获岛" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="5 老二挂了" Id="5c62b46b-a40d-46e9-b189-e1eb5c4ecf31" RegularExpression="19:卡努瓦努 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][5]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="1 进本" Id="b049fa97-8127-492a-8e5c-4ca8a6a6bac5" RegularExpression="任务开始">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][1]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="6 老三" Id="ade1250f-fffe-4eb3-b799-57748a1c1f69" RegularExpression="00:0839:距狂笑云社被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][6]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="2 老一" Id="0c7d96bf-2ce9-41a8-b32d-e8f8197e45eb" RegularExpression="00:0839:距飒瑟神岛被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][2]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="3 老一挂了" Id="d0241563-dcfa-4c3c-805a-d9644b547786" RegularExpression="19:奴涅努克怪鸟 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][3]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="4 老二" Id="6ddb1459-e634-4262-a216-7bdb60d656fc" RegularExpression="00:0839:距呼风殿堂被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][4]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder ZoneFilterEnabled="True" Id="efccee35-1309-4e2b-9bde-8da4edccd219" ZoneFilterRegularExpression="秘本宝库迦巴勒幻想图书馆" Name="60秘本宝库迦巴勒幻想图书馆" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="5 老二挂了" Id="7ea63f02-8f07-4571-b3d4-077e81d90c30" RegularExpression="19:液态火焰 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][5]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="1 进本" Id="41f63eb4-c69e-4426-9eab-ef8fbbf4712e" RegularExpression="任务开始">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][1]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="6 老三" Id="6364bf86-de07-4dd9-8811-544181974c5f" RegularExpression="00:0839:距思想珍秘书库被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][6]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="2 老一" Id="d5aefe4b-362b-4ddf-9edf-6b446303dfff" RegularExpression="00:0839:距魔书翼廊被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][2]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="3 老一挂了" Id="7ebb2c59-9a60-4dc5-a97c-2cf817836ead" RegularExpression="19:书中恶魔 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][3]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="4 老二" Id="c5f0ec58-f7fe-404b-a912-834e6d2838a4" RegularExpression="00:0839:距占星学研究室被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][4]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder ZoneFilterEnabled="True" Id="d38e7f9a-5959-4e2a-9db3-2eefcd2e4658" ZoneFilterRegularExpression="天龙宫殿忆罪宫" Name="60天龙宫殿忆罪宫" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="5 老二挂了" Id="8d1bfd3c-a835-42b7-8809-6f72dd0771eb" RegularExpression="19:卜奇喇吉 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][5]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="1 进本" Id="a5ab22f3-01a7-43b6-abaa-27de0386931e" RegularExpression="任务开始">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][1]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="6 老三" Id="9460aa24-08a0-49c8-9073-7a6c1c254084" RegularExpression="距追忆之柱被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][6]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="2 老一" Id="34caae1b-fb55-4c06-a2b1-bc505e3bfea8" RegularExpression="名字土土的.*啊！莫古来代替圣龙大人试试你的实力吧！">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][2]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="3 老一挂了" Id="fa3c1860-ba35-4722-8fe7-62e298c4480f" RegularExpression="19:长老莫古灵 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][3]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="4 老二" Id="9c8b9c65-3f6e-4e8a-942f-e0715bf0f396" RegularExpression="距祈祷之身被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][4]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder ZoneFilterEnabled="True" Id="ebbf2287-938b-4bef-86d0-885128c2a5f7" ZoneFilterRegularExpression="神圣遗迹无限城市街古迹" Name="60神圣遗迹无限城市街古迹" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="5 老二挂了" Id="17bcf9c3-7cb1-4599-9e09-bb8e7dedc4e0" RegularExpression="19:双翼飞狮 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][5]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="1 进本" Id="41976ca1-e1e5-4c62-901f-feda3e736ec3" RegularExpression="任务开始">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][1]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="6 老三" Id="b3171829-b52b-4107-9531-6158d9afde75" RegularExpression="00:0839:距守护圣域被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][6]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="2 老一" Id="45463f00-1004-45b1-916a-c48c7c37c034" RegularExpression="00:0839:距白魔法师塔被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][2]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="3 老一挂了" Id="d46263aa-4c7c-4f62-8ef4-71d3d6645827" RegularExpression="19:阿卡莫特 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][3]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="4 老二" Id="b3ee1baa-d307-4555-89cf-5616560158e9" RegularExpression="00:0839:距飞翼领地被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][4]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder ZoneFilterEnabled="True" Id="5f79c6b9-d7c5-466b-a02c-3a42aa104f10" ZoneFilterRegularExpression="星海空间颠倒塔" Name="60星海空间颠倒塔" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="5 老二挂了" Id="3a72eb65-1d9b-442b-8bad-729ed5c1ef58" RegularExpression="19:瑞吉 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][5]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="1 进本" Id="c86c19b0-af2f-4b2a-a397-c0522784f8c6" RegularExpression="任务开始">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][1]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="6 老三" Id="6ee14b59-03b3-4377-aeb5-f9b8d6539046" RegularExpression="00:0839:距星海瞭望室被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][6]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="2 老一" Id="d186347a-bfca-485b-bdb2-e2226d989695" RegularExpression="呱呱呱！我是塔的守护者呱！难得的入侵者，就做我的听众，听我高歌一曲呱！！|00:0839:距空中魔法阵被封锁还有15秒" PeriodRefire="Deny">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][2]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="3 老一挂了" Id="a03db22a-8549-4162-aa4a-d799349e853b" RegularExpression="19:歌圣 兹罗·罗格 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][3]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="4 老二" Id="b4f45e76-95b9-4273-ac17-b42a9c88d366" RegularExpression="00:0839:距浮游舞台被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][4]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder ZoneFilterEnabled="True" Id="d31ff19b-836b-4e51-b090-b14a3daadcc5" ZoneFilterRegularExpression="险峻峡谷塞尔法特尔溪谷" Name="60险峻峡谷塞尔法特尔溪谷" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="5 老二挂了" Id="46f3dd77-0aaa-4a69-8494-f829b0276b4c" RegularExpression="19:旋风扇 德托里·西罗克 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][5]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="1 进本" Id="e4eeaf4c-2eb8-46f1-b6cd-d936bff9ce19" RegularExpression="任务开始">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][1]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="6 老三" Id="009781fc-9249-4ce6-82c0-4a4d6533551b" RegularExpression="00:0839:距风神祭坛被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][6]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="2 老一" Id="d864dea1-5709-4742-a859-f0f3c67f51a1" RegularExpression="00:0839:距巢营门前被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][2]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="3 老一挂了" Id="16df9ac4-eea6-4eaa-a490-06112c1e2dd2" RegularExpression="19:飞天枪 奴扎尔·怀罗克 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][3]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="4 老二" Id="d2a85ac8-9660-439d-8726-9563178ac33d" RegularExpression="00:0839:距塔帕索利斗技场被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][4]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder ZoneFilterEnabled="True" Id="b34d6f3e-2ed6-4346-8b58-994aa2735b74" ZoneFilterRegularExpression="血战苍穹魔科学研究所" Name="60血战苍穹魔科学研究所" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="5 老二挂了" Id="fa9aa390-4328-4b1e-9ce0-c28e0f2ffbc0" RegularExpression="19:赫鲁玛奇斯 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][5]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="1 进本" Id="92ecbef9-ae71-4476-a2fe-e87362fbe9ae" RegularExpression="任务开始">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][1]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="6 老三" Id="cec6abff-cd72-49d9-a5f3-9dc2e3d9927a" RegularExpression="00:0839:距拘束仓被封锁还有15秒">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][6]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="2 老一" Id="04111910-4ddc-40b9-b4be-64c5155ac65e" RegularExpression="我还说终于把垃圾打扫干净了…… 没想到在这里碰到你！">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][2]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="3 老一挂了" Id="9cf5fd7d-48fb-4ea8-8800-2a32b5862b47" RegularExpression="19:雷古拉·范·休著斯 was defeated by ">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][3]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="4 老二" Id="b5cd7353-0fb3-4d4b-960a-2218b7d96f9e" RegularExpression="继续投入生物兵器，员工快速撤离此地！">
+                <Actions>
+                  <Action OrderNumber="1" JsonEndpointExpression="http://127.0.0.1:${var:Set_Catfish_Postman_Port}/command" JsonPayloadExpression="/${func:tolower:${var:MentorMacroTextChannel}} ${tvarrl:MentorMacroText[${_zone}][4]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson" Asynchronous="False">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+            </Triggers>
+          </Folder>
+        </Folders>
+        <Triggers />
+      </Folder>
+    </Folders>
+    <Triggers>
+      <Trigger Enabled="true" Name="设置 - 鲶鱼精端口" Id="bef996fb-f036-4756-a38e-fd618b1f4da4" RegularExpression="01:Changed Zone to ">
+        <Actions>
+          <Action OrderNumber="1" VariableOp="SetNumeric" VariableName="Set_Catfish_Postman_Port" VariableExpression="2019" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable" Asynchronous="False">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+      </Trigger>
+      <Trigger Enabled="true" Name="设置 - 发送频道" Id="1d450cd9-2555-4b73-b6d3-de808ddd0174" RegularExpression="01:Changed Zone to ">
+        <Actions>
+          <Action OrderNumber="1" VariableOp="SetString" VariableName="MentorMacroTextChannel" VariableExpression="e" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable" Asynchronous="False">
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+      </Trigger>
+      <Trigger Enabled="true" Name="设置 - csv路径" Id="14101a73-1766-4c12-804d-4db5658106c0" RegularExpression="01:Changed Zone to ">
+        <Actions>
+          <Action OrderNumber="1" DiskFileOp="ReadCSVIntoTableVariable" DiskFileOpName="D:\微云同步助手\553469159\Github\FFXIV_Mentor_Tools\宏.csv" DiskFileOpVar="MentorMacroText" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="DiskFile" Asynchronous="False">
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
+      </Trigger>
+    </Triggers>
+  </ExportedFolder>
+</TriggernometryExport>
